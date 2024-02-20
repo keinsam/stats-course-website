@@ -71,7 +71,7 @@ Cette quantité est forcément plus petite que $1 - \dtv(P_0, P_1)$ par la défi
 
 **Commentaire.** Le théorème précédent semble donner au problème de la construction de tests une réponse définitive : il donne le test optimal au sens de l'affinité, test qui est élémentaire et intuitif. En effet, si $P_0, P_1$ sont les deux lois et si $(x_1, \dotsc, x_n)$ est l'échantillon observé, alors on rejette l'hypothèse nulle si la probabilité de cette observation est plus grande sous $P_1$ que sous $P_0$ : autrement dit, si 
 $$ \frac{p_1(x_1, \dotsc, x_n)}{p_0(x_1, \dotsc, x_n)}>1. $$
-Le terme de droite s'appelle **rapport de vraisemblance**. 
+Le terme de gauche s'appelle **rapport de vraisemblance**. 
 Pourtant, ce test ne permet pas de contrôler l'erreur de première espèce. Il peut tout à fait exister d'autres tests qui ont un niveau plus élevé. Il est donc naturel de se demander si, parmi les tests ayant un niveau fixé $1-\alpha$, il existe un autre critère d'optimalité. 
 
 ## Théorème de Neyman-Pearson
